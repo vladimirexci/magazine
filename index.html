@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>magazine</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+</head>
+<body>
+	
+	<div class="top-panel">
+		<div class="top-panel__message">
+			<span style="color: #fff">
+				Только сегодня скидка возмодна сейчас по промокоду SALE70 успевай приобрести
+			</span>
+		</div>
+	</div>
+	<header class="header">
+		<div class="header__flex">
+			<div class="header__logo">
+				<img src="./img/logo.png" width="350px" alt="kidscity">
+			</div>
+			<div class="header__navbar">
+				<ul class="header__menu">
+					<li>home</li>
+					<li>shop</li>
+					<li>blog</li>
+					<li>about</li>
+				</ul>
+			</div>
+			<div class="header__components">
+				<div class="search-form__toogle"></div>
+				<a class="cherry-popus-login-link" href="#"></a>
+				<div class="site-header-cart"></div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main-container">
+		<div class="main-container__slider">
+			<div><img src="img/banner.png" width="1170px" alt=""></div>
+			<div><img src="img/banner.png" width="1170px" alt=""></div>
+			<div><img src="img/banner.png" width="1170px" alt=""></div>
+		</div>
+	</main>
+
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$('.main-container__slider').slick({
+				dots: true,
+				infinite: true,
+				speed: 500,
+				fade: true,
+				cssEase: 'linear'
+		});
+	</script>
+</body>
+</html>
