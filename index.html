@@ -7,19 +7,23 @@
   <title>magazine</title>
   <link rel="stylesheet" id="font-awesome-css" href="https://ld-wp.template-help.com/woocommerce_prod-17684/v2/wp-content/plugins/cherry-socialize/assets/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/example.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
-	
+
+	<!-- sale -->
 	<div class="top-panel">
 		<div class="top-panel__message">
 			<span style="color: #fff">
 				Только сегодня скидка возмодна сейчас по промокоду SALE70 успевай приобрести
 			</span>
 		</div>
-	</div>
+  </div>
+
+  <!-- navigation --> 
 	<header class="header">
 		<div class="header__flex">
 			<div class="header__logo">
@@ -39,8 +43,9 @@
 				<div class="site-header-cart"></div>
 			</div>
 		</div>
-	</header>
-
+  </header>
+  
+<!-- Content -->
 	<main class="main-container">
 		<div class="main-container__slider">
 			<div class="banner__img">
@@ -59,9 +64,10 @@
       </div>
     </div>
 
+    <!--author  -->
     <div class="author">
       <div class="author__img">
-        <img class="manee1" src="./img/manee1.jpg" width="280px" height="280px" alt="Manee">
+        <img class="manee1" src="./img/manee1.jpg" alt="Manee">
       </div>
       <div class="author__description">
         <h1>Hello! My name is Manee</h1>
@@ -69,6 +75,7 @@
       </div>
     </div>
 
+    <!-- catalog -->
     <div class="collection">
       <div class="new-collection">
         <img src="./img/news1.jpg" width="1170px" alt="new collection">
@@ -80,7 +87,7 @@
           <div class="collection__description">
             <a href="#"><h3>hello kitty</h3></a>
             <a class="description-item kitty" href="#"><span>So lovely doll Kitty</span></a>
-            <a href="#"><span><b>19$</b></span></a>
+            <a href="#"><span class="collection__price"><b>19$</b></span></a>
           </div>
         </div>
         <div class="collection__products-item">
@@ -88,7 +95,7 @@
           <div class="collection__description">
             <a href="#"><h3>chang (pink)</h3></a>
             <a class="description-item" href="#"><span>So lovely doll Elephant</span></a>
-            <a href="#"><span><b>8$</b></span></a>
+            <a href="#"><span class="collection__price"><b>8$</b></span></a>
           </div>
         </div>
         <div class="collection__products-item">
@@ -96,7 +103,7 @@
           <div class="collection__description">
             <a href="#"><h3>bear</h3></a>
             <a class="description-item" href="#"><span>So lovely doll Bear</span></a>
-            <a href="#"><span><b>11$</b></span></a>
+            <a href="#"><span class="collection__price"><b>11$</b></span></a>
           </div>
         </div>
         <div class="collection__products-item">
@@ -104,21 +111,23 @@
           <div class="collection__description">
             <a href="#"><h3>chunky</h3></a>
             <a class="description-item  chunky" href="#"><span>So lovely doll Chunky</span></a>
-            <a href="#"><span><b>15$</b></span></a>
+            <a href="#"><span class="collection__price"><b>15$</b></span></a>
           </div>
         </div>
       </div>
     </div>
   </main>
+
+  <!-- featured -->
   <div class="main-panel">
-		<div class="main-panel__message">
-			<div class="featured__products">
+    <div class="main-featured">
+      <div class="featured__products">
         <div class="featured__products-item item">
           <a href="#"><img src="./img/item.jpg" alt=""></a>
           <div class="featured__description">
             <a href="#"><h3>hello kitty</h3></a>
             <a class="description-item kitty" href="#"><span>So lovely doll Kitty</span></a>
-            <a href="#"><span><b>19$</b></span></a>
+            <a href="#"><span class="featured__price"><b>19$</b></span></a>
           </div>
         </div>
         <div class="featured__products-item">
@@ -126,7 +135,7 @@
           <div class="featured__description">
             <a href="#"><h3>chang (pink)</h3></a>
             <a class="description-item chang" href="#"><span>So lovely doll Elephant</span></a>
-            <a href="#"><span><b>8$</b></span></a>
+            <a href="#"><span class="featured__price"><b>8$</b></span></a>
           </div>
         </div>
         <div class="featured__products-item">
@@ -134,7 +143,7 @@
           <div class="featured__description">
             <a href="#"><h3>bear</h3></a>
             <a class="description-item" href="#"><span>So lovely doll Bear</span></a>
-            <a href="#"><span><b>11$</b></span></a>
+            <a href="#"><span class="featured__price"><b>11$</b></span></a>
           </div>
         </div>
         <div class="featured__products-item">
@@ -142,13 +151,14 @@
           <div class="featured__description">
             <a href="#"><h3>chunky</h3></a>
             <a class="description-item  chunky" href="#"><span>So lovely doll Chunky</span></a>
-            <a href="#"><span><b>15$</b></span></a>
+            <a href="#"><span class="featured__price"><b>15$</b></span></a>
           </div>
         </div>
       </div>
-		</div>
+    </div>
   </div>
-  
+
+  <!-- footer -->
   <footer class="footer">
     <div class="element-container">
       <div class="element-item">
@@ -262,17 +272,17 @@
   
 
 
-
+  <!-- scripts -->
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 
 	<script type="text/javascript">
 		$('.main-container__slider').slick({
-				dots: true,
+				dots: false,
 				infinite: true,
 				speed: 500,
-				fade: true,
+				fade: false,
 				cssEase: 'linear'
 		});
 	</script>
