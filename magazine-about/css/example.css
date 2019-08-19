@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+  .author {
+    margin: 5px;
+  }
+  .author__description {
+    width: 100%;
+  }
+  .new-collection {
+    display: none;
+  }
+  .collection {
+    margin: 5px;
+  }
+  .collection__products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer__about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__logo img {
+    width: 700px;
+  }
+  .footer__about-desc {
+    width: 700px;
+    font-size: 19px;
+  }
+  .collection__products-item {
+    width: 33%;
+  }
+  .featured__products-item {
+    width: 33%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .author {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .author__description {
+    text-align: center;
+  }
+  .collection__products-item {
+    width: 25%;
+  }
+  .featured__products-item {
+    width: 25%;
+  }
+  
+  .collection {
+    margin: 10px;
+  }
+  .collection__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+  }
+  .featured__products {        `
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .element-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 960px) {
+  .new-collection {
+    width: 768px;
+    margin: 5px auto
+  }
+  .card__kitty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card__kitty-description {
+    margin-left: 0;
+  }
+  .new-collection img {
+    width: 100%;
+  }
+  .collection__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+  }
+  .main-panel {
+    width: 960px;
+
+  }
+  .footer {
+    width: 960px;
+  }
+  .element-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+  .top-panel {
+    width: 960px;
+  }
+}
