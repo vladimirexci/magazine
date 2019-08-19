@@ -1,5 +1,3 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-
 * {
 	box-sizing: border-box;
 }
@@ -33,7 +31,7 @@ body {
 }
 
 .header {
-	width: 1170px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -105,7 +103,7 @@ body {
 }
 
 .main-container {
-	width: 1170px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -129,7 +127,7 @@ body {
   text-transform: uppercase;
   right: 52px;
   top: 100px;
-  font-size: 66px;
+  font-size: 52px;
   font-weight: 700;
   color: #fff;
 }
@@ -140,7 +138,7 @@ body {
   text-transform: uppercase;
   right: 111px;
   top: 194px;
-  font-size: 175px;
+  font-size: 145px;
   font-weight: 700;
   color: #fff;
 }
@@ -151,7 +149,7 @@ body {
   text-transform: uppercase;
   right: 111px;
   top: 383px;
-  font-size: 175px;
+  font-size: 145px;
   font-weight: 700;
   color: #fff;
 }
@@ -162,7 +160,7 @@ body {
   text-transform: uppercase;
   right: 54px;
   top: 583px;
-  font-size: 47px;
+  font-size: 39px;
   font-weight: 500;
   color: #fff;
 }
@@ -170,7 +168,7 @@ body {
 a.banner__button {
   text-transform: uppercase;
   font-weight: 700;
-  right: 221px;
+  right: 168px;
   bottom: 143px;
   position: absolute;
   color: #fff;
@@ -221,9 +219,12 @@ a.banner__button:active {
 
 .new-collection {
   position: relative;
+  width: 960px;
 }
 
 .new-collection img {
+  width: 100%;
+  height: auto;
   border: 3px solid #f193bb;
 }
 
@@ -250,8 +251,8 @@ a.banner__button:active {
 }
 
 .collection__products-item img {
-  width: 265px;
-  height: 265px;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 0px 0px 2px #84818c, 0px 0px 0px 5px #f0f0ee, 0px 0px 0px 7px #84818c;
 }
 
@@ -276,7 +277,6 @@ a.banner__button:active {
 
 .collection__description span {
   font-weight: 500;
-  margin-bottom: 10px;
 }
 
 .collection__price {
@@ -291,12 +291,6 @@ a.banner__button:active {
   font-family: sans-serif;
 }
 
-.description-item:hover {
-  cursor: pointer;
-  transition: 0.5s;
-  color: #f193bb;
-}
-
 .kitty {
   position: relative;
 }
@@ -306,16 +300,9 @@ a.banner__button:active {
   color: #f193bb;
   position: absolute;
   border: 3px solid #f193bb; 
-  top: -292px;
-  left: -57px;
+  top: -238px;
+  left: -26px;
   font-size: 25px;
-}
-
-.kitty:hover:before {
-  cursor: pointer;
-  color: #fff;
-  transition: 0.5s;
-  border: 3px solid #fff;
 }
 
 .chunky {
@@ -327,16 +314,9 @@ a.banner__button:active {
   color: #fff;
   position: absolute;
   border: 3px solid #fff; 
-  top: -292px;
-  left: -40px;
+  top: -238px;
+  left: -12px;
   font-size: 25px;
-}
-
-.chunky:hover:before {
-  cursor: pointer;
-  transition: 0.5s;
-  color: #f193bb;
-  border: 3px solid #f193bb;
 }
 
 .main-panel {
@@ -349,7 +329,7 @@ a.banner__button:active {
 
 .main-featured {
   position: relative;
-  width: 1170px;
+  width: 960px;
 }
 
 .featured__products {
@@ -368,8 +348,8 @@ a.banner__button:active {
 }
 
 .featured__products-item img {
-  width: 265px;
-  height: 265px;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 0px 0px 2px #84818c, 0px 0px 0px 5px #f0f0ee, 0px 0px 0px 7px #84818c;
 }
 
@@ -394,7 +374,6 @@ a.banner__button:active {
 
 .featured__description span {
   font-weight: 500;
-  margin-bottom: 10px;
 }
 
 .featured__price {
@@ -418,13 +397,21 @@ a.banner__button:active {
   height: 100%;
   background-color: #141414;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-services {
+  display: flex;
+  justify-content: center;
 }
 
 .element-container {
-  padding-top: 70px;
-  padding-bottom: 100px;
-  margin: 0 auto;
-  max-width: 1170px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width: 960px;
+  height: auto;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -437,6 +424,7 @@ a.banner__button:active {
 }
 
 .element-item {
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,7 +461,7 @@ a.banner__button:active {
 }
 
 .elementor-space-inner {
-  width: 1170px;
+  width: 960px;
   height: 10px;
   display: block;
   border-bottom: 0.5px solid #999999;
@@ -482,7 +470,7 @@ a.banner__button:active {
 
 .footer-area {
   display: flex;
-  max-width: 1170px;
+  max-width: 960px;
   margin: 0 auto;
   padding-bottom: 60px;
 }
@@ -568,7 +556,7 @@ a.mail__button {
   text-decoration: none;
   user-select: none;
   background: rgba(34, 195, 227, 1);
-  padding: 0.7em 1.5em;
+  padding: 0.7em 0.5em;
   outline: none;
 }
 
@@ -613,11 +601,11 @@ a.mail__button:active {
 }
 
 .copirate {
-  max-width: 1170px;
+  width: 960px;
   margin: 0 auto;
   display: flex;
-  padding-bottom: 10px;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .rights {
